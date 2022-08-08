@@ -1,0 +1,924 @@
+.heading-text
+{
+    border: 3px solid #EFEFEF;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-style: double;
+    background-clip: padding-box;
+    border-collapse: separate;
+    border-width: 15px;
+}
+.heading-text h1
+{
+    margin: 0;
+    line-height: 1;
+}
+.main
+{
+    background-image: url(./image/background_image.jpg);
+    width: 100%;
+    min-height: 630px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main .contain-block{
+   padding: 335px 0px 120px;
+}
+
+.content-block2
+{
+    padding-top: 94px;
+}
+.sub-text2
+{
+    font-size: 18px;
+    flex-basis: 58%;
+    
+}
+.heading-text2
+{
+    display: flex;
+    padding: 0 30px;
+}
+.text1 h2
+{
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.sub-text2
+{
+    font-size: 18px;
+}
+.heading-text h1
+{
+    text-shadow: 2px 2px 5px black;
+}
+.heading-text2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 95px;
+}
+.text1
+{
+    padding-top: 0;
+    flex-basis: 45%;
+}
+.text2
+{
+    flex-basis: 53%;
+}
+.main2
+{
+    padding-top: 142px;
+}
+.card1
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+img
+{
+    padding-left: 100px;
+}
+.img1
+{
+    flex-basis: 43%;
+}
+.img2
+{
+    flex-basis: 42%;
+    padding-left: 154px;
+}
+.img3
+{
+    flex-basis: 43%;
+}
+.img4
+{
+    flex-basis: 42%;
+    padding-left: 154px;
+}
+.card2
+{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+.card1 h5
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.heading-text3
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button {
+    padding-top: 100px;
+    text-align: center;
+}
+.main3
+{
+    padding-top: 145px;
+}
+.bg-img
+{
+    background-image: url(./image/background-image2.jpg);
+    width: 100%;
+    min-height: 489px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cards1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main4
+{
+    padding-top: 137px;
+}
+.card3
+{
+    background-image: url(./image/living_comfort.jpg);
+    flex-basis: 50%;
+    min-height: 450px;
+    background-size: cover;
+}
+.card4
+{
+    flex-basis: 37%;
+    padding-left: 96px;
+}
+.card4 h4
+{
+    margin-top: 0px;
+    padding-top: 119px;
+}
+.card4 p
+{
+    padding-bottom: 35px;
+}
+.card6
+{
+    background-image: url(./image/Downsize\ and\ upgrade.png);
+    flex-basis: 48%;
+    min-height: 450px;
+    background-size: cover;
+    padding-left: 21px;
+}
+.card5
+{
+    flex-basis: 33%;
+    padding-left: 72px;
+    padding-right: 110px;
+}
+.card5 h4
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 105px;
+    padding-bottom: 28px;
+}
+.card5 p
+{
+    padding-bottom: 35px;
+}
+.main5
+{
+    position: relative;
+    z-index: 1;
+    padding-top: 233px;
+}
+.main5::after {
+    position: absolute;
+    content: '';
+    background-image: url(./image/bird.jpg);
+    top: 20px;
+    left: 0;
+    max-width: 266px;
+    width: 100%;
+    height: 242px;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading-text5 h3
+{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.heading-text5 p
+{
+    font-size: 18px;
+}
+.heading-text5
+{
+    max-width: 982px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.cards3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card7
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/house.jpg");
+    min-height: 404px;
+    flex-basis: 49%;
+    background-size: cover;
+}
+.card8
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/house2.jpg");
+    flex-basis: 49%;
+    min-height: 404px;
+    background-size: cover;
+    margin-left: 2%;
+}
+.main6
+{
+    padding-top: 103px;
+}
+.cards3 h3
+{
+    font-size: 50px;
+    color: #EFEFEF;
+    line-height: 0.38;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 160px;
+}
+.cards3 .primary-button a
+{
+    cursor: pointer;
+    margin-top: 61px;
+}
+.main7
+{
+    padding-top: 147px;
+}
+.cards4
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card9
+{
+    flex-basis: 43%;
+    padding-right: 87px;
+}
+.card9 h6
+{
+        font-size: 32px;
+        color: #b64240;
+        letter-spacing: 0px;
+        font-weight: lighter;
+        line-height: 1.0;
+        font-family: 'Montserrat';
+        margin-bottom: 0;
+        margin-top: 0px;
+}
+.card9 h3
+{
+    font-size: 48px;
+    color: #2F3438;
+    letter-spacing: normal;
+    line-height: 1.1;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+.card9 .primary-button a
+{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.card10
+{
+    background-image: url(./image/cafe.jpg);
+    flex-basis: 48%;
+    min-height: 450px;
+}
+.main8
+{
+    padding-top: 114px;
+}
+.format1
+{
+    text-align: center;
+}
+.format2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.format3
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.format1 h4 {
+    color: #2F3438;
+    font-weight: bold;
+}
+.format2 p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.name p {
+    color: #333333;
+}
+.format2 input {
+    height: 45px;
+    width: 386px;
+}
+.format2 ::placeholder
+{
+   font-size: 22px;
+   color: #CECECE;
+   padding-left: 16px;
+   align-items: center;
+}
+@media (max-width:768px) {
+    .main .contain-block {
+        padding: 125px 0px 96px;
+    }
+    .main {
+        background-image: url(./image/background_image.jpg);
+        width: 100%;
+        min-height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sub-text1
+    {
+        margin-top: 0px;
+    }
+    .heading-text2
+    {
+        display: block;
+        padding-top: 0px;
+    }
+    h2
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    p
+    {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .text1
+    {
+        flex-basis: 100%;
+    }
+    .text2
+    {
+        flex-basis: 100%;
+    }
+    .card1
+    {
+        display: block;
+        text-align: center;
+    }
+    .card2
+    {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+    img
+    {
+        padding-left: 0px;
+    }
+    .img2
+    {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .img4
+    {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .main2
+    {
+        padding-top: 10px;
+    }
+    h5
+    {
+        padding-top: 0px;
+        margin-top: 5px;
+    }
+    .button {
+        padding-top: 30px;
+    }
+    .main3
+    {
+        padding-top: 30px;
+    }
+    .bg-img
+    {
+        background-image: url(./image/background-image2.jpg);
+        width: 100%;
+        min-height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .cards1
+    {
+        display: block;
+    }
+    .cards2
+    {
+        display: block;
+    }
+    .card3
+    {
+        min-height: 200px;
+    }
+    .card4
+    {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .card5
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .main4
+    {
+        padding-top: 15px;
+    }
+    .card4 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .card4 p
+    {
+        padding-bottom: 5px;
+    }
+    .card5 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .card5 p
+    {
+        padding-bottom: 5px;
+    }
+    .card6
+    {
+        min-height: 200px;
+    }
+    .card5 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    h5
+    {
+        font-size: 20px;
+    }
+    .main5::after {
+        top: -120px;
+        max-width: 120px;
+        width: 100%;
+        height: 400px;
+    }
+    .main5
+    {
+        padding-top: 20px;
+    }
+    h3
+    {
+        font-size: 30px;
+    }
+    .heading-text5 h3
+    {
+        padding-bottom: 10px;
+    }
+    .heading-text5 p
+    {
+        font-size: 16px;
+    }
+    .cards3
+    {
+        display: block;
+    }
+    .main6
+    {
+        padding-top: 15px;
+    }
+    .cards3 h3
+    {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .card7
+    {
+        min-height: 200px;
+        margin-bottom: 10px;
+    }
+    .card8
+    {
+        min-height: 200px;
+    }
+    .cards3 .primary-button 
+    {
+        text-align: center;
+    }
+    .cards4
+    {
+        display: block;
+    }
+    .card9 h6
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    .card9
+    {
+        padding-right: 0px;
+    }
+    .card9 h3
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .card10
+    {
+        min-height: 300px;
+    }
+    .card9 .primary-button
+    {
+        text-align: center;
+    }
+    .main7
+    {
+        padding-top: 20px;
+    }
+    .card9 h3
+    {
+        padding-bottom: 5px;
+    }
+    .card9 .primary-button a
+    {
+        margin-top: 0px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .main .contain-block {
+        padding: 139px 0px 96px;
+    }
+    .main {
+        background-image: url(./image/background_image.jpg);
+        width: 100%;
+        min-height: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cards3 .primary-button
+    {
+        text-align: center;
+    }
+    .heading-text2
+    {
+        padding-top: 10px;
+    }
+    .card1
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text1
+    {
+        flex-basis: 45%;
+    }
+    .text2
+    {
+        flex-basis: 46%;
+        padding-left: 17px;
+    }
+    .main2
+    {
+        padding-top: 40px;
+    }
+    .img2
+    {
+        flex-basis: 47%;
+        padding-left: 70px;
+    }
+    .img1
+    {
+        flex-basis: 42%;
+    }
+    .img3
+    {
+        flex-basis: 42%;
+    }
+    .img4
+    {
+        flex-basis: 47%;
+        padding-left: 70px;
+    }
+    .button .secondary-button a {
+        font-size: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bg-img
+    {
+        background-image: url(./image/background-image2.jpg);
+        width: 100%;
+        min-height: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .main4
+    {
+        padding-top: 15px;
+    }
+    .card4 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .card4 p
+    {
+        padding-bottom: 5px;
+    }
+    .card5 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .card5 p
+    {
+        padding-bottom: 5px;
+    }
+    .card6
+    {
+        flex-basis: 45%;
+        min-height: 300px;
+    }
+    .card5 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    h5
+    {
+        font-size: 20px;
+    }
+    .card3 {
+        background-image: url(./image/living_comfort.jpg);
+        flex-basis: 45%;
+        min-height: 300px;
+        background-size: cover;
+    }
+    .card5
+    {
+        padding-right: 45px;
+    }
+    .main5::after {
+        top: -70px;
+        max-width: 160px;
+        width: 100%;
+        height: 400px;
+    }
+    .main5
+    {
+        padding-top: 50px;
+    }
+    .heading-text5 h3
+    {
+        font-size: 40px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+    }
+    .heading-text5 p
+    {
+        font-size: 16px;
+    }
+    .main6
+    {
+        padding-top: 30px;
+    }
+    .cards3 h3
+    {
+        font-size: 40px;
+    }
+    .card7
+    {
+        min-height: 350px;
+    }
+    .card8
+    {
+        min-height: 350px;
+    }
+    .card9
+    {
+        padding-right: 65px;
+    }
+    .card10
+    {
+        min-height: 400px;
+    }
+}
+@media (min-width:1025px) and (max-width:1106px) {
+   .card1
+   {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .img2
+   {
+    flex-basis: 42%;
+    padding-left: 140px;
+   }
+   .img4
+   {
+    flex-basis: 42%;
+    padding-left: 140px;
+   }
+}
+@media (min-width: 0px) and (max-width: 498px){
+.button .secondary-button a {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button {
+    padding-top: 15px;
+}
+}
+@media (min-width: 499px) and (max-width: 768px){
+    .button .secondary-button a {
+        font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.format2 ::placeholder
+{
+    font-size: 14px;
+}
+}
+@media (min-width:1025px) and (max-width:1109px) {
+    .main4
+    {
+        padding-top: 15px;
+    }
+    .card4 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .card4 p
+    {
+        padding-bottom: 5px;
+    }
+    .card5 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .card5 p
+    {
+        padding-bottom: 5px;
+    }
+    .card6
+    {
+        min-height: 200px;
+    }
+    .card5 h4
+    {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    h5
+    {
+        font-size: 20px;
+    }
+    .card3 {
+        background-image: url(./image/living_comfort.jpg);
+        flex-basis: 49%;
+        min-height: 300px;
+        background-size: cover;
+    }
+    .card5
+    {
+        padding-right: 45px;
+    }
+}
+@media (max-width:2560px) {
+    .cards3 .primary-button
+    {
+        text-align: center;
+    }
+}
+@media (min-width: 499px) and (max-width: 768px){
+    .main8
+    {
+        padding-top: 20px;
+    }
+}
+@media (max-width:767px) {
+    .main8 h4
+    {
+            font-size: 30px;
+            text-align: center;
+    }
+    .main8 p
+    {
+        text-align: center;
+    }
+    .format3 {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .format3 .third-button a {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width:0px) and (max-width:481px) {
+    .main8
+{
+    padding-top: 30px;
+}
+.format2 input {
+    height: 45px;
+    width: 386px;
+    max-width: 150px;
+    max-height: 30px
+}
+.format2 ::placeholder
+    {
+        font-size: 15px;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .format2 input {
+        height: 45px;
+        width: 386px;
+        max-width: 220px;
+        max-height: 30px
+    }
+}
+
